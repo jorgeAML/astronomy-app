@@ -1,6 +1,7 @@
 const express = require('express');
 const http = require('http');
 const path = require('path');
+const morgan = require('morgan');
 //global object
 let addDates = require('./dates');
 /*express object*/
@@ -14,6 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 /*file extension for the template files*/
 app.set('view engine', 'pug');
 /*render*/
+app.use(morgan('dev'));
 app.use(express.static(__dirname + '/public'));
 
 app.all('*', (req, res) => {
