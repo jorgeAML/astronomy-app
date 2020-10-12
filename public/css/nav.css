@@ -2,9 +2,9 @@
     background-color: var(--color-background-nav);
     font-family: var(--titles-font-two);
     font-size: large;
-    border-bottom: 4px ridge var(--color-links-nav);
+    border-bottom: 6px ridge var(--color-links-nav);
     position: relative;
-    box-shadow: 0px 1px 10px 0px #f25f4c;
+    box-shadow: 0px 1px 10px 0px var(--color-links-nav);
 }
 .sub-navs{
     display: flex;
