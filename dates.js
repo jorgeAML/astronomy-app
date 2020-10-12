@@ -1,6 +1,6 @@
 function newDate () {
     let dateOne = new Date('October 1, 2020');
-    let dateTwo = new Date('September, 30, 2020');
+    let dateTwo = new Date('October, 11, 2020');
     console.info('DATE:' + dateOne);
     console.log('----------------------------------');
     console.info('Updated on Github Repository, the last one was: ' + dateTwo)
