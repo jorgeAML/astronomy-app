@@ -1,8 +1,10 @@
 .nav-wrapper {
-    background-color: var(--color-background-nav);
+    /*background-color: var(--color-background-nav);*/
+    background-color: transparent;
     font-family: var(--titles-font-two);
     font-size: x-large;
     border-bottom: 4px ridge var(--color-links-nav);
+    position: relative;
 }
 .sub-navs{
     display: flex;
