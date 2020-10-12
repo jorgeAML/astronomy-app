@@ -12,9 +12,10 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
+    background-color: var(--color-background-nav);
 }
 #api {
-    position: relative;
+    position: none;
 }/*
 .wrapper {
     position: relative;
@@ -23,6 +24,8 @@ body {
 #api > img {
     width: 100%;
     object-fit: cover;
+    border-bottom: 4px ridge var(--color-links-nav);
+    box-shadow: 0px 1px 10px 0px #f25f4c;
 }
 /*
 .shapeId01 {
