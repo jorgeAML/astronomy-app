@@ -9,6 +9,7 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=mGF2HwXeB42ahOBgZOYYCSWRrSGRi
       image.src = `${data.url}`;
       app.append(image);
       
+      
       /*CONSOLE*/
       console.info('The JSON response will appear if we got success!');
       console.log(data.status);
@@ -19,7 +20,7 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=mGF2HwXeB42ahOBgZOYYCSWRrSGRi
           const selectId = document.getElementById('api');
           
           const createImg = document.createElement('img');
-          createImg.setAttribute('src', './images/CygnusFilament_HubbleShatz_1080.jpg');
+          createImg.setAttribute('src', './images/uno.jpg');
           selectId.append(createImg);
       }
       
