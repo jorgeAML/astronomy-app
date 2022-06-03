@@ -19,7 +19,9 @@ app.set('view engine', 'ejs');
 app.use(layouts);
 /*render*/
 app.use(morgan('dev'));
+//Controladores de paginas
 app.get("/contacto/", controller.respondWithContact);
+app.get("/donar/", controller.respondWithDonation);
 app.use(express.static(__dirname + '/public'));
 
 app.all('*', (req, res) => {
