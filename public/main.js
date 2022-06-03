@@ -14,6 +14,7 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=mGF2HwXeB42ahOBgZOYYCSWRrSGRi
       console.info('The JSON response will appear if we got success!');
       console.log(data.status);
       console.log(data);
+      
       } else { 
           console.info('the conditional is working, appear that the JSON response have a 404 code');
           console.error('we have a 404 error here, but we know how to deal with it.');

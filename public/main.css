@@ -2,10 +2,11 @@
 :root {
     --titles-font-one: 'Bowlby One SC', cursive;
     --titles-font-two: 'Bungee', cursive;
+    --font-check1: 'Share Tech Mono', monospace;
 
-    --color-links-nav: #ff8906;
-    --color-background-nav: #0f0e17;
-    --color-links-hover: #fffffe;
+    --color-links-nav: #86bbb8;
+    --color-background-nav: #060c0d;
+    --color-links-hover: #9bdfd2;
 
     --color-paragrahs: #a7a9be;
 }
@@ -15,6 +16,8 @@ body {
     height: 100%;
     overflow: auto;
     background-color: var(--color-background-nav);
+    font-family: var(--font-check1);
+    color: var(--color-links-nav);
 }
 #api {
     position: none;
@@ -23,6 +26,7 @@ body {
 #api > img {
     width: 100%;
     object-fit: cover;
+    height: 100vh;
 }
 .wrapper {
     position: relative;
@@ -75,6 +79,5 @@ body {
     flex: 1 1 auto;
     margin: 0 2% 0 10%;
     text-align: center;
-    font-family: var(--titles-font-two);
     color: var(--color-links-nav);
 }
