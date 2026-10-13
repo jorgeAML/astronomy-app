@@ -1,5 +1,5 @@
 .nav-wrapper {
-    background-color: var(--color-background-nav);
+    background-color: transparent;
     font-family: var(--font-check1);
     font-size: large;
     border-bottom: 2px solid var(--color-links-nav);
